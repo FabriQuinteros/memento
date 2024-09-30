@@ -49,12 +49,6 @@ A simple application demonstrating the use of the **Memento Design Pattern** in 
    npm start
    ```
 
-## Usage
-
-- Open the app in your browser and start adding items to your shopping list.
-- Manage your lists by adding, editing, deleting, and marking items as purchased or unpurchased.
-- Switch between different shopping lists using the tabbed interface, and customize each list with a unique color.
-
 ## Live Demo
 
 Try the application live at [Live Demo Link](https://fabriquinteros.github.io/memento)
