@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memento/static/css/main.dc4d6ff2.css",
+    "main.js": "/memento/static/js/main.4755cba4.js",
+    "static/js/453.2caeff05.chunk.js": "/memento/static/js/453.2caeff05.chunk.js",
+    "index.html": "/memento/index.html",
+    "main.dc4d6ff2.css.map": "/memento/static/css/main.dc4d6ff2.css.map",
+    "main.4755cba4.js.map": "/memento/static/js/main.4755cba4.js.map",
+    "453.2caeff05.chunk.js.map": "/memento/static/js/453.2caeff05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.4755cba4.js"
+  ]
+}
