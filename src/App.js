@@ -1,6 +1,6 @@
+import { Button, Container, Stack, TextField, Typography } from '@mui/material';
+import React, { useRef, useState } from 'react';
 import './App.css';
-import React, { useState, useRef } from 'react';
-import { Container, Button, Typography, TextField, Stack } from '@mui/material';
 
 class Memento {
   constructor(state) {
@@ -51,7 +51,6 @@ class Caretaker {
 function App() {
   const [inputValue, setInputValue] = useState('');
   const [outputValue, setOutputValue] = useState('');
-  const [history, setHistory] = useState([]);
 
   const originatorRef = useRef(new Originator());
   const caretakerRef = useRef(new Caretaker());
@@ -65,7 +64,6 @@ function App() {
   const saveState = () => {
     const memento = originatorRef.current.save();
     caretakerRef.current.addMemento(memento);
-    setHistory([...history, memento]);
     setOutputValue(inputValue);
   };
 
@@ -74,7 +72,6 @@ function App() {
     originatorRef.current.restore(lastMemento);
     setInputValue(originatorRef.current.state);
     setOutputValue(originatorRef.current.state);
-    setHistory(history.slice(0, -1));
   };
 
   return (
