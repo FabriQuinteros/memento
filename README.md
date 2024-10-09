@@ -28,7 +28,7 @@ A simple application demonstrating the use of the **Memento Design Pattern** in 
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/lucaelbio/memento.git](https://github.com/LucaElbio/memento.git)
+   git clone https://github.com/LucaElbio/memento.git
    ```
 
 2. Navigate to the project directory:
