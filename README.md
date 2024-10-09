@@ -28,7 +28,7 @@ A simple application demonstrating the use of the **Memento Design Pattern** in 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/fabriquinteros/memento.git
+   git clone [https://github.com/lucaelbio/memento.git](https://github.com/LucaElbio/memento.git)
    ```
 
 2. Navigate to the project directory:
@@ -51,4 +51,4 @@ A simple application demonstrating the use of the **Memento Design Pattern** in 
 
 ## Live Demo
 
-Try the application live at [Live Demo Link](https://fabriquinteros.github.io/memento)
+Try the application live at [Live Demo Link](https://lucaelbio.github.io/memento)
